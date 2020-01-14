@@ -52,3 +52,7 @@ ol {
     margin-left: auto;
     margin-right: auto;
 }
+
+#total {
+    color: rgb(240, 54, 8);
+}

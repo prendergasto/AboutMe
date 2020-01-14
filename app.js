@@ -2,7 +2,7 @@ import isYes from './is-yes.js'
 
 //retrieving the quiz button from the html document
 const quizButton = document.getElementById('quizButton');
-
+const total = document.getElementById('total');
 
 // adding an event listener to the "click" on the website
 quizButton.addEventListener('click', () => {
@@ -32,9 +32,9 @@ quizButton.addEventListener('click', () => {
     if (!isYes(answer3)) count ++;
     if (!isYes(answer4)) count ++;
 // this takes the total # correct and the name of the user and prints a statement on the results
-    total.textContent = (`${name}, you scored a ${count} on my quiz`);
+    total.textContent = `${name}, you scored a ${count} on my quiz`;
 // if the person gets a 3 or a 4 they get a "good job!" message
-    if (total === 3, 4) total.textContent = (`${name}, you scored a ${count} on my quiz. Good job!`);
+    if (count >= 3) total.textContent = `${name}, you scored a ${count} on my quiz. Good job!`;
     // tried doing an if greater than statement, but that wasn't working
 });
 
