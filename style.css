@@ -3,9 +3,52 @@ body {
     background-color: skyblue;
 }
 
+/* .center {
+
+    text-align: center;
+    list-style-position: ;
+} */
+
 h1 {
 
     text-align: center;
     color: pink
 }
 
+h2 {
+
+    color: tomato;
+}
+
+h3 {
+
+    color: palevioletred;
+}
+
+h5 {
+
+    color: plum;
+}
+
+li {
+    /* border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-; */
+    text-align: center;
+    color: rgb(228, 129, 15);
+}
+
+ul {
+    
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol {
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
