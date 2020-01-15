@@ -1,58 +1,15 @@
 body {
     text-align: center;
-    background-color: skyblue;
+    background-color: blanchedalmond;
+    color: salmon;
 }
-
-/* .center {
-
-    text-align: center;
-    list-style-position: ;
-} */
 
 h1 {
-
     text-align: center;
-    color: pink
+    color: salmon;
 }
 
-h2 {
+.hidden {
 
-    color: tomato;
-}
-
-h3 {
-
-    color: palevioletred;
-}
-
-h5 {
-
-    color: plum;
-}
-
-li {
-    /* border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    border-; */
-    text-align: center;
-    color: rgb(228, 129, 15);
-}
-
-ul {
-    
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-ol {
-
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#total {
-    color: rgb(240, 54, 8);
+    display: none;
 }
