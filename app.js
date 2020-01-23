@@ -8,6 +8,7 @@ const guessResult = document.getElementById('guess-result');
 const answerDisplay = document.getElementById('answer-display');
 
 let magicNumber = 13;
+// console.log(Math.round(Math.random() * 20));
 
 let tries = 4;
 
