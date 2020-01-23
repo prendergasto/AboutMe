@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Guessing Game</title>
+</head>
+
+<h1>Welcome to the Guessing Game...</h1>
+<h3>Below you will guess a number between 1 and 20</h3>
+
+<body>
+
+    <input type="number" id="input" min="1" max="20">
+    <button id="guess-button">Submit</button>
+
+
+    <p>Tries remanining: <span id="tries-remaining">4</span></p>
+    <p class="hidden" id="guess-container">Your guess is <span id="guess-result">too high!</span></p>
+    <p class="hidden" id="answer-display">You win!</p>
+
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="compareNumbers.js"></script>
+</body>
+
+</html>

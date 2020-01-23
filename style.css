@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color: blanchedalmond;
+    color: salmon;
+}
+
+h1 {
+    text-align: center;
+    color: salmon;
+}
+
+.hidden {
+
+    display: none;
+}
